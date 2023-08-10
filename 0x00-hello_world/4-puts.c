@@ -1,5 +1,11 @@
 #include <stdio.h>
-/* A script that prints using puts() function */
+/**
+ * main - Entry point
+ *
+ * Description: 'print some text'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char message[] = "\"Programming is like building a multilingual puzzle";
