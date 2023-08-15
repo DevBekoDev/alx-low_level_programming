@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * _putchar - Entry point
  *
  * Description: 'Print _putchar'
  * Return: Always 0 (Success)
  */
-int main(void)
+int _putchar(void)
 {
-	_putchar();
+	printf("_putchar\n");
 	return (0);
 }
