@@ -7,5 +7,5 @@
  *
 */
 
-int _putchar(char i);
+int _putchar(char c);
 #endif
