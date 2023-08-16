@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
- * Rerturn
+ * _islower - check if the charchter is lowercase
+ * @c: entry
+ * Return: (0) or (1)
  */
 int _islower(int c)
 {
