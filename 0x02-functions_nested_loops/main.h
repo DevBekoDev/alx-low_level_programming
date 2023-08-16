@@ -1,8 +1,10 @@
+#ifndef MAIN_H
+#define MAIN_H
 /**
- * File: main.h
+ * Header file for my project
  *
- * Description: 'GG'
+ * project name 0x02-functions_nested_loops
  *
 */
 
-int _putchar(void);
+int _putchar(char i);
