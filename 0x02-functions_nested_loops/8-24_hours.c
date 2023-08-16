@@ -3,10 +3,6 @@
 /**
  * jack_bauer - Entry
  * Description: prints every minute of the day of Jack Bauer.
- * @a: int
- * @b: int
- * @c: int
- * @d: int
  * Return: Always 0
  */
 void jack_bauer(void)
