@@ -11,20 +11,21 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		int isFizz = i % 3 ==0;
-		int isBuzz = i % 5 ==0;
+		int isFizz = i % 3 == 0;
+		int isBuzz = i % 5 == 0;
+		/*int isFizzBuzz = i % 5 == 0 && i % 3 == 0;*/
 
-		if (isFizz)
+		if (isFizz && isBuzz)
 		{
-			printf("Fizz ");
+			printf("FizzBuzz ");
 		}
 		else if (isBuzz)
 		{
 			printf("Buzz ");
 		}
-		else if (isFizz && isBuzz)
+		else if (isFizz)
 		{
-			printf("FizzBuzz ");
+			printf("Fizz ");
 		}
 		else
 		{
