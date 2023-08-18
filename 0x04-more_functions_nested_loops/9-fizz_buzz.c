@@ -3,6 +3,7 @@
 /**
  * main - check the code
  * Description: Fizz-Buzz test
+ * Return: ) always in success
  */
 
 int main(void)
@@ -32,5 +33,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
+	printf("\n");
 	return (0);
 }
