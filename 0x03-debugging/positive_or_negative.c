@@ -1,18 +1,14 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdib.h>
+
 /*
- * File: 0-positive_or_negative.c
- * Auth: Brennan D Baraban
+ * positive_or_negative: entry
+ * Description: check the code
+ * description: test
+ * Return: 0 always in success
  */
 
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
-/**
- * main - Prints a random number and states whether
- *        it is positive, negative, or zero.
- *
- * Return: Always 0.
-*/
 int positive_or_negative(void)
 {
 	int n;
