@@ -3,7 +3,7 @@
 /**
  * main - check the code
  * Description: Fizz-Buzz test
- * Return: ) always in success
+ * Return: 0 always in success
  */
 
 int main(void)
@@ -19,6 +19,10 @@ int main(void)
 		if (isFizz && isBuzz)
 		{
 			printf("FizzBuzz ");
+		}
+		else if (i == 100)
+		{
+			printf("Buzz");
 		}
 		else if (isBuzz)
 		{
