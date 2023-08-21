@@ -12,7 +12,7 @@
 void print_rev(char *s)
 {
 	int begin, end, count;
-	char tmp[100];
+	char tmp[10000];
 
 	while (s[count] != '\0')
 		count++;
