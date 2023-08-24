@@ -5,7 +5,7 @@
  * *_cap_string - Entry
  * Description: a function that capitalizes all words of a string.
  * @str: pointer to a string
- * Retunr: 0
+ * Return: 0
  */
 
 char *cap_string(char *str)
@@ -22,6 +22,10 @@ char *cap_string(char *str)
 			str[i] = toupper(str[i]);
 		}
 		else if (str[i] == ' ' || str[i] == '.')
+		{
+			str[i + 1] = toupper(str[i + 1]);
+		}
+		else if (str[i] == '\n' || str[i] == '\t')
 		{
 			str[i + 1] = toupper(str[i + 1]);
 		}
