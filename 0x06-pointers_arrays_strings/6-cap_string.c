@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * *_cap_string - Entry
+ * *cap_string - Entry
  * Description: a function that capitalizes all words of a string.
  * @str: pointer to a string
  * Return: 0
