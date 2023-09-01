@@ -5,10 +5,8 @@
 
 /**
  * main - Program that adds positive numbers
-
- * @argc: This is the argument count
- * @argv: This is the argument vector
- *
+ * @argc: command line argument
+ * @argv: command line argument
  * Return: 0;
  */
 int main(int argc, char *argv[])
