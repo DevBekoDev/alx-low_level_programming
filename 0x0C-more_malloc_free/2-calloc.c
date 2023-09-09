@@ -11,14 +11,14 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
-	unsigned int *ptr;
+	char *address;
 
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
-	ptr = (unsigned int *)calloc(nmemb, sizeof(unsigned int));
-	if (ptr == NULL)
+	address = malloc(nmemb * size);
+	if (address == NULL)
 	{
 		return (NULL);
 	}
@@ -26,8 +26,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		for (i = 0; i < (nmemb * size); i++)
 		{
-			ptr[i] = 0;
+			address[i] = 0;
 		}
-		return (ptr);
+		return (address);
 	}
 }
