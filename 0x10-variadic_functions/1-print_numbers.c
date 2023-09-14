@@ -21,11 +21,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			if (separator != NULL)
 			{
-				printf("%i%s ", va_arg(args, int), separator);
+				printf("%i%s", va_arg(args, int), separator);
 			}
 			if (separator == NULL)
 			{
-				printf("%i ", va_arg(args, int));
+				printf("%i", va_arg(args, int));
 			}
 		}
 		if (i == (n - 1))
