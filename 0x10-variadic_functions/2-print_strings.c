@@ -28,7 +28,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_start(args, n);
 
-	if (n > 1)
+	if (n > 0)
 	{
 		printf("%s", va_arg(args, char *));
 	}
